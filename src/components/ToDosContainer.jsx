@@ -19,7 +19,7 @@ export default class ToDosContainer extends Component{
     render(){
     const todoItems =this.props.todos.map(data=>{
         return(
-            <ToDoItem key={data.id} item={data.text} />
+            <ToDoItem update={this.props.update} key={data.id} item={data.text} id={data.id} />
         ) 
     })
 

@@ -6,7 +6,7 @@ export default function ToDoDones(props){
 
 const doneItems = props.dones.map(item=>{
     return(
-        <DoneItems key={item.id} done={item.text} />
+        <DoneItems update={props.update} key={item.id} id={item.id} done={item.text} />
     )
 })
     return(
