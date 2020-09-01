@@ -1,1 +1,14 @@
 deployment-steps
+
+1. Install gh-pages packages
+npm i gh-pages
+
+2. configure package.json
+before making a build
+ 	a. "homepage":"git-repo-path"
+	b. add 2 more scripts
+		1."predeploy":"npm run build",
+		2."deploy":"gh-pages -d build"
+
+3. deploy
+npm run deploy

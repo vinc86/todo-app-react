@@ -3,7 +3,7 @@ import "./css/App.scss"
 import Navigation from './components/Navigation';
 import ToDosContainer from './components/ToDosContainer';
 import ToDoDones from './components/ToDonesContainer';
-import {Switch , BrowserRouter, Route} from "react-router-dom";
+import {Switch , HashRouter, Route} from "react-router-dom";
 import Help from './components/Help';
 import Notfound from "./components/Notfound";
 class App extends Component{
@@ -64,7 +64,7 @@ class App extends Component{
     const toDones = this.state.items.filter(item=>item.done===true)
     return (
       <div className="app">
-        <BrowserRouter>
+        <HashRouter>
         <Navigation />
         <Switch>
         <Route path="/" exact>
@@ -74,7 +74,7 @@ class App extends Component{
         <Route path="/help" component={Help}/>
         <Route component={Notfound}/>
         </Switch>
-        </BrowserRouter>
+        </HashRouter>
       </div>
     );
   }
