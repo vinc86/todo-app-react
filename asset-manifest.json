@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/vinc86/todo-app-react/static/css/main.e95605cc.chunk.css",
+    "main.js": "/vinc86/todo-app-react/static/js/main.a46cc219.chunk.js",
+    "main.js.map": "/vinc86/todo-app-react/static/js/main.a46cc219.chunk.js.map",
+    "runtime-main.js": "/vinc86/todo-app-react/static/js/runtime-main.8f58781a.js",
+    "runtime-main.js.map": "/vinc86/todo-app-react/static/js/runtime-main.8f58781a.js.map",
+    "static/js/2.f60b7958.chunk.js": "/vinc86/todo-app-react/static/js/2.f60b7958.chunk.js",
+    "static/js/2.f60b7958.chunk.js.map": "/vinc86/todo-app-react/static/js/2.f60b7958.chunk.js.map",
+    "index.html": "/vinc86/todo-app-react/index.html",
+    "precache-manifest.c42439b8a73007e84d8dcd9e78198c13.js": "/vinc86/todo-app-react/precache-manifest.c42439b8a73007e84d8dcd9e78198c13.js",
+    "service-worker.js": "/vinc86/todo-app-react/service-worker.js",
+    "static/css/main.e95605cc.chunk.css.map": "/vinc86/todo-app-react/static/css/main.e95605cc.chunk.css.map",
+    "static/js/2.f60b7958.chunk.js.LICENSE.txt": "/vinc86/todo-app-react/static/js/2.f60b7958.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8f58781a.js",
+    "static/js/2.f60b7958.chunk.js",
+    "static/css/main.e95605cc.chunk.css",
+    "static/js/main.a46cc219.chunk.js"
+  ]
+}
